@@ -1,16 +1,25 @@
 using Microsoft.EntityFrameworkCore;
 using CatalogoDeFilmes.Data;
+using CatalogoDeFilmes.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Adiciona o serviço que se conecta com o banco de dados o "AppDbContext"
-//O AppDbContext diz:
-//Qual classe vira tabela "Filme"
-//E usar o Sqlite
+// Configura o DbContext
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=filmes.db"));
+
+// ** Adiciona o Swagger **
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+// ** Configura o middleware do Swagger **
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();       // Gera o JSON da documentação
+    app.UseSwaggerUI();     // Exibe a interface do Swagger no navegador
+}
+
+app.MapFilmesEndpoints();
 
 app.Run();
