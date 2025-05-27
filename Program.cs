@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using CatalogoDeFilmes.Data;
-using CatalogoDeFilmes.Endpoints;
+using CatalogoDeFilmes.ROTAS;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +20,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();     // Exibe a interface do Swagger no navegador
 }
 
-app.MapFilmesEndpoints();
+//app.MapFilmesEndpoints();
+app.MapGetFilmes();
+app.MapSetFilmes();
+app.MapPostFilmes();
+app.MapDeleteFilmes();
 
 app.Run();
