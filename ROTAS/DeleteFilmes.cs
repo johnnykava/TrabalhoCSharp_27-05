@@ -8,7 +8,7 @@ namespace CatalogoDeFilmes.ROTAS
         public static void MapDeleteFilmes(this WebApplication app){
 
             //DELETE que deleta um filme
-            app.MapDelete("/delete/{id}", async (int id, AppDbContext db) =>
+            app.MapDelete("/filmes/{id}", async (int id, AppDbContext db) =>
             {
                 var filme = await db.Filmes.FindAsync(id);
                 

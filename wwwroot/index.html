@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API FILMES</title>
+</head>
+<body>
+    <header>
+        <section id="titulo">
+            <h1>API de Filmes</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>Buscar por ID</h1>
+            <div class="buscar">
+                <input type="number" placeholder="ID:" required>
+                <button id="btn-buscar" type="submit">Pesquisar</button>
+            </div>
+        </section>
+        <section>
+            <h1>Cadastrar Filme</h1>
+            <div class="conteudo">
+                <input type="text" id="titulo-filme" name="titulo-filme" placeholder="Titulo:" required>
+                <input type="number" id="duracao-filme" name="duracao-filme" placeholder="Duração:" step="0.01" required>
+                <input type="text" id="genero-filme" name="genero-filme" placeholder="Genero" required>
+                <input type="text" id="descricao-filme" name="descricao-filme" placeholder="Descrição:" required>
+                <input type="text" id="diretor-filme" name="diretor-filme" placeholder="Diretor:" required>
+                <button id="btn-cadastrar" type="submit">Salvar Filme</button>
+            </div>
+        </section>
+        <section>
+            <h1>Lista de Filmes</h1>
+            <button id="btn-atualizar" type="submit">Atualizar Lista</button>
+            <div class="tabela-container">
+                <table id="tabela-filmes">
+                    <thead>
+                        <tr>
+                            <th>Ações</th>
+                            <th>Id</th>
+                            <th>Titulo</th>
+                            <th>Duração</th>
+                            <th>Genero</th>
+                            <th>Descrição</th>
+                            <th>Diretor</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

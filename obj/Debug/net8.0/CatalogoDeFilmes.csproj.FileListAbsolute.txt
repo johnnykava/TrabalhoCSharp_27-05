@@ -254,3 +254,4 @@ C:\Users\Catarina\Desktop\TrabalhoCSharp_27-05\obj\Debug\net8.0\scopedcss\bundle
 C:\Users\Catarina\Desktop\TrabalhoCSharp_27-05\obj\Debug\net8.0\Catalogo.D86EF3A4.Up2Date
 C:\Users\Catarina\Desktop\TrabalhoCSharp_27-05\obj\Debug\net8.0\CatalogoDeFilmes.genruntimeconfig.cache
 C:\Users\Catarina\Desktop\TrabalhoCSharp_27-05\obj\Debug\net8.0\ref\CatalogoDeFilmes.dll
+C:\Users\johnn\OneDrive\Área de Trabalho\Pastas\Topicos Especiais de Sistema\API\Atividade 2\CatalogoDeFilmes\bin\Debug\net8.0\CatalogoDeFilmes.staticwebassets.runtime.json

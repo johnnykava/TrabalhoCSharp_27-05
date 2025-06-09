@@ -4,11 +4,11 @@ using CatalogoDeFilmes.Models;
 
 namespace CatalogoDeFilmes.ROTAS
 {
-    public static class SetFilmes{
-        public static void MapSetFilmes(this WebApplication app){
+    public static class PutFilmes{
+        public static void MapPutFilmes(this WebApplication app){
 
            //SET que edita um filme
-            app.MapPut("/delete/{id}", async (int id, Filme filmeAtt, AppDbContext db) =>
+            app.MapPut("/filmes/{id}", async (int id, Filme filmeAtt, AppDbContext db) =>
             {
                 var filme = await db.Filmes.FindAsync(id);
                 

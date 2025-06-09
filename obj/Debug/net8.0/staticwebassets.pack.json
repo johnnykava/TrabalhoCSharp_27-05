@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CatalogoDeFilmes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CatalogoDeFilmes.props",
+      "PackagePath": "build\\CatalogoDeFilmes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CatalogoDeFilmes.props",
+      "PackagePath": "buildMultiTargeting\\CatalogoDeFilmes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CatalogoDeFilmes.props",
+      "PackagePath": "buildTransitive\\CatalogoDeFilmes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

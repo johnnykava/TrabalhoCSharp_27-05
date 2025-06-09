@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "rlvcpMOjexCWz0K+3POfF4HyrHvKV3CY4ofQscQh7mo=",
+  "Hash": "M2L8oZWYI4+HBXLdCvG0FtjqHoh/j3ZuspJ996sS6Wk=",
   "Source": "CatalogoDeFilmes",
   "BasePath": "_content/CatalogoDeFilmes",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CatalogoDeFilmes\\wwwroot",
+      "Source": "CatalogoDeFilmes",
+      "ContentRoot": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeFilmes",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\index.html",
+      "SourceId": "CatalogoDeFilmes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeFilmes",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\script.js",
+      "SourceId": "CatalogoDeFilmes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeFilmes",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\style.css",
+      "SourceId": "CatalogoDeFilmes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnn\\OneDrive\\Área de Trabalho\\Pastas\\Topicos Especiais de Sistema\\API\\Atividade 2\\CatalogoDeFilmes\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeFilmes",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
 }

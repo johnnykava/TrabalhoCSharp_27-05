@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using CatalogoDeFilmes.Data;
 using CatalogoDeFilmes.ROTAS;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,8 +23,11 @@ if (app.Environment.IsDevelopment())
 
 //app.MapFilmesEndpoints();
 app.MapGetFilmes();
-app.MapSetFilmes();
+app.MapPutFilmes();
 app.MapPostFilmes();
 app.MapDeleteFilmes();
+
+app.UseDefaultFiles();  // Procura por index.html automaticamente
+app.UseStaticFiles();   // Permite servir arquivos da pasta wwwroot
 
 app.Run();
